@@ -20,6 +20,10 @@ private URL = 'http://localhost:3001/api/'
 
   loggedIn(){
     return !!localStorage.getItem('token')
-    
+
+  }
+
+  getToken(){
+    return localStorage.getItem('token')
   }
 }
